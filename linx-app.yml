@@ -1,0 +1,9 @@
+env:
+  - name: DATABASE_URL
+  - name: LOG_LEVEL
+    default: info
+  - name: PORT
+    default: "8080"
+  - name: API_TOKEN
+  - name: NOTE
+    default: ""
