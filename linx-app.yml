@@ -7,3 +7,6 @@ env:
   - name: API_TOKEN
   - name: NOTE
     default: ""
+port:
+  default: 8080
+  linked_env_var: PORT
